@@ -64,14 +64,14 @@ const MarketingItem = ({ mar }) => {
 class Marketing extends Component {
   render() {
     return (
-      <div>
+      <>
         <div className="container">
           <div className="row py-5 text-center">
             <MarketingItem mar={data} />
           </div>
           <hr />
         </div>
-      </div>
+      </>
     );
   }
 }

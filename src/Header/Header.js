@@ -29,13 +29,13 @@ const Cont = ({ t }) => {
 class Header extends Component {
   render() {
     return (
-      <div>
+      <>
         <div className="container">
           <div className="jumbotron p-4 p-md-5 text-white rounded bg-dark">
             <Cont t={data} />
           </div>
         </div>
-      </div>
+      </>
     );
   }
 }

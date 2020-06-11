@@ -29,11 +29,11 @@ const Cont = ({ t }) => {
 class Block extends Component {
   render() {
     return (
-      <div>
+      <>
         <div className="container">
           <Cont t={data} />
         </div>
-      </div>
+      </>
     );
   }
 }

@@ -56,12 +56,12 @@ const Cont = ({ t }) => {
 class FeatureTextRight extends Component {
   render() {
     return (
-      <div>
+      <>
         <div className="container">
           <Cont t={data} />
           <hr />
         </div>
-      </div>
+      </>
     );
   }
 }
